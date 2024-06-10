@@ -28,8 +28,8 @@ python face_smile_detection.py
 ```
 
 ## Requirements
-Python 3.x
-OpenCV library
+- Python 3.x
+- OpenCV library
 
 ## License
 This project is open-source and available under the MIT License.
