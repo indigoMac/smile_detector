@@ -13,10 +13,10 @@ The script uses pre-trained Haar cascade models to detect facial features. The c
 - Library Importation: Utilizes OpenCV (cv2), a powerful library for computer vision tasks.
 - Cascade Loading: Loads three different Haar cascades for detecting faces, eyes, and smiles.
 - Detection Function: Defines a function detect() that:
-  -- Converts video frames to grayscale (necessary for Haar cascade detection).
-  -- Applies the face cascade to detect faces.
-  -- Applies the eye and smile cascades within each detected face to find eyes and smiles respectively.
-  -- Annotates the original frame with rectangles and text based on detection results.
+  * Converts video frames to grayscale (necessary for Haar cascade detection).
+  * Applies the face cascade to detect faces.
+  * Applies the eye and smile cascades within each detected face to find eyes and smiles respectively.
+  * Annotates the original frame with rectangles and text based on detection results.
 - Webcam Feed Processing: Captures video feed from the webcam, processes each frame in the detect() function, and displays the annotated video in real time.
 - User Interaction: Allows the user to quit the application by pressing 'q'.
 
