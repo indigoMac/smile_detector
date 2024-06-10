@@ -24,7 +24,7 @@ The script uses pre-trained Haar cascade models to detect facial features. The c
 To run this project, you will need to have Python and OpenCV installed. Clone this repository and execute the script in a Python environment where OpenCV is installed. Make sure to place the Haar cascade files in the same directory as the script or update the path in the script accordingly.
 
 ```bash
-python face_smile_detection.py
+python smile_detector.py
 ```
 
 ## Requirements
